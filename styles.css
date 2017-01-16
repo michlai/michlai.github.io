@@ -1,0 +1,26 @@
+.jumbotron {
+  background-color: #e9eae3
+}
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 63px;
+    font-family: 'Pacifico', cursive;
+}
+.jumbotron .h2, .jumbotron h2 {
+    font-size: 45px;
+    font-family: 'Montserrat', cursive;
+}
+.jumbotron .h3, .jumbotron h3 {
+    font-size: 25px;
+    font-family: 'Lora', cursive;
+}
+.jumbotron .h4, .jumbotron h4 {
+    font-size: 25px;
+    font-family: 'Karla', cursive;
+}
+.jumbotron .h5, .jumbotron h5 {
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+.skills-and-experience {
+  color: green
+}

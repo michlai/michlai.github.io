@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Pepper, the Cat</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://use.fontawesome.com/f9001c39ac.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Feline Communication Trainer</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="page2.html">About Me<span class="sr-only">(current)</span></a></li>
+          <li><a href="page3.html">Skills & Experience</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Information <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Services & Pricing</a></li>
+              <li><a href="#">Results & Testimonials</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Contact Me</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 <body>
-  <div id="wrapper">
-    <h1>Pepper</h1>
-    <p>
-      <img src="Pepper.PNG">
-    </p>
-    <h2>Cat</h2>
-    <h3>Singapore, SG</h3>
-    <div>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="https://www.facebook.com/michelleyihenglai/media_set?set=a.10206148058641919.1073741829.1277087180&type=3">Facebook</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4 id="summary">Summary</h4>
+  <div class="container">
+    <div class="jumbotron">
       <p>
-        Pepper is a 3 year-old cat living on the 15F of a condo somewhere in Singapore. She has her own master room with her master and likes to step on people when they are sleeping. She is pretty skittish with strangers, but warms up to them after a short while.
+        <img src="Pepper.PNG">
       </p>
+      <h1>Your Ultimate Solution to Communicating with Your Cat.</h1>
+      <h2>Never be misunderstood and be scratched for nothing again.</h2>
+      <h3><a href="#" class="btn btn-success">Really, check it out</a></h3>
     </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Decent Pet</h5>
-        <p>Improved tolerance on most human actions except twirling tail.</p>
+    <div class="row">
+      <div class="col-sm-4">
+        <h4><i class="fa fa-check"></i> It's effective.</h4>
+        <p>Improve within days.</p>
       </div>
-      <div>
-        <h5>Kitten</h5>
-        <p>Developed acceptance to showers and nail-clipping.</p>
+      <div class="col-sm-4">
+        <h4><i class="fa fa-calendar"></i> It's personalized.</h4>
+        <p>Prep plans designed to your needs.</p>
       </div>
-    </div>
-    <div>
-      <h4 class="skills-and-hobbies">Skills</h4>
-      <ul>
-        <li>Sleep</li>
-        <li>Hide</li>
-        <li>Wait for owner to come home</li>
-      </ul>
-    </div>
-    <div>
-      <h4 class="skills-and-hobbies">Hobbies</h4>
-      <ul>
-        <li>Eat</li>
-        <li>Find clean place to poop</li>
-      </ul>
+      <div class="col-sm-4">
+        <h4><i class="fa fa-thumbs-up"></i> It's totally flexible.</h4>
+        <p>Sign up according to your schedule.</p>
+      </div>
     </div>
   </div>
 </body>
