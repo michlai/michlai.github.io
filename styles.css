@@ -17,10 +17,18 @@
     font-size: 25px;
     font-family: 'Karla', cursive;
 }
-.jumbotron .h5, .jumbotron h5 {
+#summary {
+  color: green;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}
+.jumbotron .h6, .jumbotron h6 {
     font-size: 45px;
     font-family: 'Pacifico', cursive;
 }
 .skills-and-experience {
   color: green
+}
+.btn {
+	border-radius: 0px;
 }
